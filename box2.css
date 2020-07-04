@@ -1,0 +1,15 @@
+#smallBox2{
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+#smallBox2:hover{
+    animation: move;
+    animation-duration: 0.5s;
+}
+@keyframes move{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(90deg);}
+    /* 100%{transform: rotate(0deg);} */
+}

@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    border: 2px solid black;
+    width: 600px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+#smallBox{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+}
+
+#container:hover #smallBox{
+    animation: left;
+    animation-duration: 2s;
+}
+@keyframes left{
+    0% {margin-left: 0px; color: yellowgreen;}
+    50% {margin-left: 500px; color: yellow;}
+    100% {margin-left: 0px; color: yellowgreen;}
+}
